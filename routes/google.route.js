@@ -26,7 +26,7 @@ googleRouter.get(
         expiresIn: 60 * 60 * 7,
       }
     );
-    res.redirect(`/admin.html?token=${token}&rtoken=${rtoken}`);
+    res.redirect(`https://budgetbudy.netlify.app/admin.html?token=${token}&rtoken=${rtoken}`);
   }
 );
 
